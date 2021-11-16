@@ -38,6 +38,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblTituloInicio = new System.Windows.Forms.Label();
             this.painelBiblioteca = new System.Windows.Forms.Panel();
+            this.lblTeste = new System.Windows.Forms.Label();
+            this.lblTituloAleatorio = new System.Windows.Forms.Label();
             this.PainelAlive = new System.Windows.Forms.Panel();
             this.lblTempoAlive = new System.Windows.Forms.Label();
             this.lblAlok = new System.Windows.Forms.Label();
@@ -73,6 +75,20 @@
             this.lblArticMonkeysCURTIDA = new System.Windows.Forms.Label();
             this.lblDoIWanaKnowCURTIDA = new System.Windows.Forms.Label();
             this.lblTituloCurtidas = new System.Windows.Forms.Label();
+            this.painelTocando = new System.Windows.Forms.Panel();
+            this.lblDuracao = new System.Windows.Forms.Label();
+            this.lblArtista = new System.Windows.Forms.Label();
+            this.lblNomeMusica = new System.Windows.Forms.Label();
+            this.btnAleatorizar = new System.Windows.Forms.Button();
+            this.btnLoop = new System.Windows.Forms.Button();
+            this.btnProximaEsquerda = new System.Windows.Forms.Button();
+            this.btnProximaDireita = new System.Windows.Forms.Button();
+            this.btnPlayBaixo = new System.Windows.Forms.Button();
+            this.btnPausarBaixo = new System.Windows.Forms.Button();
+            this.imgFotoDoIWannaKnow = new System.Windows.Forms.PictureBox();
+            this.imgFotoSweaterWeather = new System.Windows.Forms.PictureBox();
+            this.imgFotoAlive = new System.Windows.Forms.PictureBox();
+            this.imgFotoWithoutMe = new System.Windows.Forms.PictureBox();
             this.btnCurtidas = new System.Windows.Forms.Button();
             this.linha1 = new System.Windows.Forms.PictureBox();
             this.linha2 = new System.Windows.Forms.PictureBox();
@@ -80,18 +96,23 @@
             this.btnBiblioteca = new System.Windows.Forms.Button();
             this.btnInicio = new System.Windows.Forms.Button();
             this.btnFavoritarAlive = new System.Windows.Forms.Button();
-            this.btnPlayAlive = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.btnPlayAlive = new System.Windows.Forms.Button();
+            this.btnStopAlive = new System.Windows.Forms.Button();
             this.btnFavoritarWithoutMe = new System.Windows.Forms.Button();
-            this.btnPlayWithoutMe = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnPlayWithoutMe = new System.Windows.Forms.Button();
+            this.btnStopWithoutMe = new System.Windows.Forms.Button();
             this.btnFavoritarSweaterWeather = new System.Windows.Forms.Button();
-            this.btnPlaySweaterWeather = new System.Windows.Forms.Button();
             this.imgSweaterWeather = new System.Windows.Forms.PictureBox();
+            this.btnPlaySweaterWeather = new System.Windows.Forms.Button();
+            this.btnStopSweaterWeather = new System.Windows.Forms.Button();
             this.btnPlay = new System.Windows.Forms.Button();
-            this.btnDoIWannaKnow = new System.Windows.Forms.Button();
-            this.btnFavoritarDoIWannaKnow = new System.Windows.Forms.Button();
+            this.btnCurtidoDoIWannaKnow = new System.Windows.Forms.Button();
             this.imgDoIWannaKnow = new System.Windows.Forms.PictureBox();
+            this.btnDoIWannaKnow = new System.Windows.Forms.Button();
+            this.btnStopDoIWannaKnow = new System.Windows.Forms.Button();
+            this.btnFavoritarDoIWannaKnow = new System.Windows.Forms.Button();
             this.imgIconeBibliotecaDeMusicas = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.picSpotify = new System.Windows.Forms.PictureBox();
@@ -109,12 +130,9 @@
             this.btnCurtidaDoIWannaKnow = new System.Windows.Forms.Button();
             this.btnPlayDoIWannaKnowCURTIDA = new System.Windows.Forms.Button();
             this.imgDoIWanaKnowCURTIDA = new System.Windows.Forms.PictureBox();
-            this.btnStopDoIWannaKnow = new System.Windows.Forms.Button();
-            this.btnStopSweaterWeather = new System.Windows.Forms.Button();
-            this.btnStopWithoutMe = new System.Windows.Forms.Button();
-            this.btnStopAlive = new System.Windows.Forms.Button();
-            this.lblTituloAleatorio = new System.Windows.Forms.Label();
-            this.lblTeste = new System.Windows.Forms.Label();
+            this.btnCurtidoSweaterWheather = new System.Windows.Forms.Button();
+            this.btnCurtidoWithoutMe = new System.Windows.Forms.Button();
+            this.btnCurtidoAlive = new System.Windows.Forms.Button();
             this.painelInicio.SuspendLayout();
             this.painelBiblioteca.SuspendLayout();
             this.PainelAlive.SuspendLayout();
@@ -126,6 +144,11 @@
             this.PainelWithoutMeCurtida.SuspendLayout();
             this.PainelAliveCurtida.SuspendLayout();
             this.PainelDoIWannaKnowCurtida.SuspendLayout();
+            this.painelTocando.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgFotoDoIWannaKnow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgFotoSweaterWeather)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgFotoAlive)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgFotoWithoutMe)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.linha1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.linha2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconeSpotify)).BeginInit();
@@ -213,15 +236,28 @@
             this.painelBiblioteca.Controls.Add(this.lblTituloBiblioteca);
             this.painelBiblioteca.Name = "painelBiblioteca";
             // 
+            // lblTeste
+            // 
+            resources.ApplyResources(this.lblTeste, "lblTeste");
+            this.lblTeste.ForeColor = System.Drawing.Color.White;
+            this.lblTeste.Name = "lblTeste";
+            // 
+            // lblTituloAleatorio
+            // 
+            resources.ApplyResources(this.lblTituloAleatorio, "lblTituloAleatorio");
+            this.lblTituloAleatorio.ForeColor = System.Drawing.Color.White;
+            this.lblTituloAleatorio.Name = "lblTituloAleatorio";
+            // 
             // PainelAlive
             // 
-            this.PainelAlive.Controls.Add(this.btnFavoritarAlive);
             this.PainelAlive.Controls.Add(this.lblTempoAlive);
             this.PainelAlive.Controls.Add(this.lblAlok);
             this.PainelAlive.Controls.Add(this.lblAlive);
             this.PainelAlive.Controls.Add(this.pictureBox3);
             this.PainelAlive.Controls.Add(this.btnPlayAlive);
             this.PainelAlive.Controls.Add(this.btnStopAlive);
+            this.PainelAlive.Controls.Add(this.btnFavoritarAlive);
+            this.PainelAlive.Controls.Add(this.btnCurtidoAlive);
             resources.ApplyResources(this.PainelAlive, "PainelAlive");
             this.PainelAlive.Name = "PainelAlive";
             // 
@@ -245,13 +281,14 @@
             // 
             // PainelWithoutMe
             // 
-            this.PainelWithoutMe.Controls.Add(this.btnFavoritarWithoutMe);
             this.PainelWithoutMe.Controls.Add(this.lblTempoWithoutMe);
             this.PainelWithoutMe.Controls.Add(this.lblEminem);
             this.PainelWithoutMe.Controls.Add(this.lblWithoutMe);
             this.PainelWithoutMe.Controls.Add(this.pictureBox2);
             this.PainelWithoutMe.Controls.Add(this.btnPlayWithoutMe);
             this.PainelWithoutMe.Controls.Add(this.btnStopWithoutMe);
+            this.PainelWithoutMe.Controls.Add(this.btnFavoritarWithoutMe);
+            this.PainelWithoutMe.Controls.Add(this.btnCurtidoWithoutMe);
             resources.ApplyResources(this.PainelWithoutMe, "PainelWithoutMe");
             this.PainelWithoutMe.Name = "PainelWithoutMe";
             this.PainelWithoutMe.Paint += new System.Windows.Forms.PaintEventHandler(this.PainelWithoutMe_Paint);
@@ -276,13 +313,14 @@
             // 
             // PainelSweaterWeather
             // 
-            this.PainelSweaterWeather.Controls.Add(this.btnFavoritarSweaterWeather);
             this.PainelSweaterWeather.Controls.Add(this.lblTempoSweaterWeather);
             this.PainelSweaterWeather.Controls.Add(this.lblTheNightbourhood);
             this.PainelSweaterWeather.Controls.Add(this.lblSweatherWeather);
             this.PainelSweaterWeather.Controls.Add(this.imgSweaterWeather);
             this.PainelSweaterWeather.Controls.Add(this.btnPlaySweaterWeather);
             this.PainelSweaterWeather.Controls.Add(this.btnStopSweaterWeather);
+            this.PainelSweaterWeather.Controls.Add(this.btnFavoritarSweaterWeather);
+            this.PainelSweaterWeather.Controls.Add(this.btnCurtidoSweaterWheather);
             resources.ApplyResources(this.PainelSweaterWeather, "PainelSweaterWeather");
             this.PainelSweaterWeather.Name = "PainelSweaterWeather";
             // 
@@ -306,13 +344,14 @@
             // 
             // PainelDoIWannaKnow
             // 
-            this.PainelDoIWannaKnow.Controls.Add(this.btnFavoritarDoIWannaKnow);
             this.PainelDoIWannaKnow.Controls.Add(this.lblTempoDoIWannaKnow);
             this.PainelDoIWannaKnow.Controls.Add(this.lblArticMonkeys);
             this.PainelDoIWannaKnow.Controls.Add(this.lblDoIWannaKnow);
             this.PainelDoIWannaKnow.Controls.Add(this.imgDoIWannaKnow);
             this.PainelDoIWannaKnow.Controls.Add(this.btnDoIWannaKnow);
             this.PainelDoIWannaKnow.Controls.Add(this.btnStopDoIWannaKnow);
+            this.PainelDoIWannaKnow.Controls.Add(this.btnFavoritarDoIWannaKnow);
+            this.PainelDoIWannaKnow.Controls.Add(this.btnCurtidoDoIWannaKnow);
             resources.ApplyResources(this.PainelDoIWannaKnow, "PainelDoIWannaKnow");
             this.PainelDoIWannaKnow.Name = "PainelDoIWannaKnow";
             // 
@@ -474,6 +513,143 @@
             this.lblTituloCurtidas.ForeColor = System.Drawing.Color.White;
             this.lblTituloCurtidas.Name = "lblTituloCurtidas";
             // 
+            // painelTocando
+            // 
+            this.painelTocando.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.painelTocando.Controls.Add(this.btnAleatorizar);
+            this.painelTocando.Controls.Add(this.btnLoop);
+            this.painelTocando.Controls.Add(this.btnProximaEsquerda);
+            this.painelTocando.Controls.Add(this.btnProximaDireita);
+            this.painelTocando.Controls.Add(this.lblDuracao);
+            this.painelTocando.Controls.Add(this.lblArtista);
+            this.painelTocando.Controls.Add(this.lblNomeMusica);
+            this.painelTocando.Controls.Add(this.btnPlayBaixo);
+            this.painelTocando.Controls.Add(this.btnPausarBaixo);
+            this.painelTocando.Controls.Add(this.imgFotoDoIWannaKnow);
+            this.painelTocando.Controls.Add(this.imgFotoSweaterWeather);
+            this.painelTocando.Controls.Add(this.imgFotoAlive);
+            this.painelTocando.Controls.Add(this.imgFotoWithoutMe);
+            resources.ApplyResources(this.painelTocando, "painelTocando");
+            this.painelTocando.Name = "painelTocando";
+            // 
+            // lblDuracao
+            // 
+            resources.ApplyResources(this.lblDuracao, "lblDuracao");
+            this.lblDuracao.ForeColor = System.Drawing.Color.White;
+            this.lblDuracao.Name = "lblDuracao";
+            // 
+            // lblArtista
+            // 
+            resources.ApplyResources(this.lblArtista, "lblArtista");
+            this.lblArtista.ForeColor = System.Drawing.Color.Gray;
+            this.lblArtista.Name = "lblArtista";
+            // 
+            // lblNomeMusica
+            // 
+            resources.ApplyResources(this.lblNomeMusica, "lblNomeMusica");
+            this.lblNomeMusica.ForeColor = System.Drawing.Color.White;
+            this.lblNomeMusica.Name = "lblNomeMusica";
+            // 
+            // btnAleatorizar
+            // 
+            this.btnAleatorizar.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_aleatoriar;
+            resources.ApplyResources(this.btnAleatorizar, "btnAleatorizar");
+            this.btnAleatorizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAleatorizar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnAleatorizar.FlatAppearance.BorderSize = 0;
+            this.btnAleatorizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnAleatorizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnAleatorizar.Name = "btnAleatorizar";
+            this.btnAleatorizar.UseVisualStyleBackColor = true;
+            // 
+            // btnLoop
+            // 
+            this.btnLoop.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_loop;
+            resources.ApplyResources(this.btnLoop, "btnLoop");
+            this.btnLoop.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLoop.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnLoop.FlatAppearance.BorderSize = 0;
+            this.btnLoop.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnLoop.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnLoop.Name = "btnLoop";
+            this.btnLoop.UseVisualStyleBackColor = true;
+            // 
+            // btnProximaEsquerda
+            // 
+            this.btnProximaEsquerda.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_proximo_esquerda;
+            resources.ApplyResources(this.btnProximaEsquerda, "btnProximaEsquerda");
+            this.btnProximaEsquerda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnProximaEsquerda.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnProximaEsquerda.FlatAppearance.BorderSize = 0;
+            this.btnProximaEsquerda.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnProximaEsquerda.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnProximaEsquerda.Name = "btnProximaEsquerda";
+            this.btnProximaEsquerda.UseVisualStyleBackColor = true;
+            // 
+            // btnProximaDireita
+            // 
+            this.btnProximaDireita.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_proximo_direita;
+            resources.ApplyResources(this.btnProximaDireita, "btnProximaDireita");
+            this.btnProximaDireita.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnProximaDireita.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnProximaDireita.FlatAppearance.BorderSize = 0;
+            this.btnProximaDireita.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnProximaDireita.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnProximaDireita.Name = "btnProximaDireita";
+            this.btnProximaDireita.UseVisualStyleBackColor = true;
+            // 
+            // btnPlayBaixo
+            // 
+            this.btnPlayBaixo.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_play_baixo;
+            resources.ApplyResources(this.btnPlayBaixo, "btnPlayBaixo");
+            this.btnPlayBaixo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPlayBaixo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnPlayBaixo.FlatAppearance.BorderSize = 0;
+            this.btnPlayBaixo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnPlayBaixo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnPlayBaixo.Name = "btnPlayBaixo";
+            this.btnPlayBaixo.UseVisualStyleBackColor = true;
+            // 
+            // btnPausarBaixo
+            // 
+            this.btnPausarBaixo.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_pausar_baixo;
+            resources.ApplyResources(this.btnPausarBaixo, "btnPausarBaixo");
+            this.btnPausarBaixo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPausarBaixo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnPausarBaixo.FlatAppearance.BorderSize = 0;
+            this.btnPausarBaixo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnPausarBaixo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnPausarBaixo.Name = "btnPausarBaixo";
+            this.btnPausarBaixo.UseVisualStyleBackColor = true;
+            // 
+            // imgFotoDoIWannaKnow
+            // 
+            this.imgFotoDoIWannaKnow.BackgroundImage = global::CloneSpotify.Properties.Resources.musica_img2;
+            resources.ApplyResources(this.imgFotoDoIWannaKnow, "imgFotoDoIWannaKnow");
+            this.imgFotoDoIWannaKnow.Name = "imgFotoDoIWannaKnow";
+            this.imgFotoDoIWannaKnow.TabStop = false;
+            // 
+            // imgFotoSweaterWeather
+            // 
+            this.imgFotoSweaterWeather.BackgroundImage = global::CloneSpotify.Properties.Resources.musica_img1;
+            resources.ApplyResources(this.imgFotoSweaterWeather, "imgFotoSweaterWeather");
+            this.imgFotoSweaterWeather.Name = "imgFotoSweaterWeather";
+            this.imgFotoSweaterWeather.TabStop = false;
+            // 
+            // imgFotoAlive
+            // 
+            this.imgFotoAlive.BackgroundImage = global::CloneSpotify.Properties.Resources.musica_img4;
+            resources.ApplyResources(this.imgFotoAlive, "imgFotoAlive");
+            this.imgFotoAlive.Name = "imgFotoAlive";
+            this.imgFotoAlive.TabStop = false;
+            // 
+            // imgFotoWithoutMe
+            // 
+            this.imgFotoWithoutMe.BackgroundImage = global::CloneSpotify.Properties.Resources.musica_img3;
+            resources.ApplyResources(this.imgFotoWithoutMe, "imgFotoWithoutMe");
+            this.imgFotoWithoutMe.Name = "imgFotoWithoutMe";
+            this.imgFotoWithoutMe.TabStop = false;
+            // 
             // btnCurtidas
             // 
             this.btnCurtidas.BackColor = System.Drawing.Color.Black;
@@ -554,6 +730,14 @@
             this.btnFavoritarAlive.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.btnFavoritarAlive.Name = "btnFavoritarAlive";
             this.btnFavoritarAlive.UseVisualStyleBackColor = true;
+            this.btnFavoritarAlive.Click += new System.EventHandler(this.btnFavoritarAlive_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::CloneSpotify.Properties.Resources.musica_img4;
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
             // 
             // btnPlayAlive
             // 
@@ -568,12 +752,18 @@
             this.btnPlayAlive.UseVisualStyleBackColor = true;
             this.btnPlayAlive.Click += new System.EventHandler(this.btnPlayAlive_Click);
             // 
-            // pictureBox3
+            // btnStopAlive
             // 
-            this.pictureBox3.BackgroundImage = global::CloneSpotify.Properties.Resources.musica_img4;
-            resources.ApplyResources(this.pictureBox3, "pictureBox3");
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.TabStop = false;
+            this.btnStopAlive.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_pausar;
+            resources.ApplyResources(this.btnStopAlive, "btnStopAlive");
+            this.btnStopAlive.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStopAlive.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnStopAlive.FlatAppearance.BorderSize = 0;
+            this.btnStopAlive.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnStopAlive.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnStopAlive.Name = "btnStopAlive";
+            this.btnStopAlive.UseVisualStyleBackColor = true;
+            this.btnStopAlive.Click += new System.EventHandler(this.btnStopAlive_Click);
             // 
             // btnFavoritarWithoutMe
             // 
@@ -586,6 +776,14 @@
             this.btnFavoritarWithoutMe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.btnFavoritarWithoutMe.Name = "btnFavoritarWithoutMe";
             this.btnFavoritarWithoutMe.UseVisualStyleBackColor = true;
+            this.btnFavoritarWithoutMe.Click += new System.EventHandler(this.btnFavoritarWithoutMe_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::CloneSpotify.Properties.Resources.musica_img3;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
             // 
             // btnPlayWithoutMe
             // 
@@ -600,12 +798,18 @@
             this.btnPlayWithoutMe.UseVisualStyleBackColor = true;
             this.btnPlayWithoutMe.Click += new System.EventHandler(this.btnPlayWithoutMe_Click);
             // 
-            // pictureBox2
+            // btnStopWithoutMe
             // 
-            this.pictureBox2.BackgroundImage = global::CloneSpotify.Properties.Resources.musica_img3;
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
+            this.btnStopWithoutMe.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_pausar;
+            resources.ApplyResources(this.btnStopWithoutMe, "btnStopWithoutMe");
+            this.btnStopWithoutMe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStopWithoutMe.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnStopWithoutMe.FlatAppearance.BorderSize = 0;
+            this.btnStopWithoutMe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnStopWithoutMe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnStopWithoutMe.Name = "btnStopWithoutMe";
+            this.btnStopWithoutMe.UseVisualStyleBackColor = true;
+            this.btnStopWithoutMe.Click += new System.EventHandler(this.btnStopWithoutMe_Click);
             // 
             // btnFavoritarSweaterWeather
             // 
@@ -618,6 +822,14 @@
             this.btnFavoritarSweaterWeather.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.btnFavoritarSweaterWeather.Name = "btnFavoritarSweaterWeather";
             this.btnFavoritarSweaterWeather.UseVisualStyleBackColor = true;
+            this.btnFavoritarSweaterWeather.Click += new System.EventHandler(this.btnFavoritarSweaterWeather_Click);
+            // 
+            // imgSweaterWeather
+            // 
+            this.imgSweaterWeather.BackgroundImage = global::CloneSpotify.Properties.Resources.musica_img1;
+            resources.ApplyResources(this.imgSweaterWeather, "imgSweaterWeather");
+            this.imgSweaterWeather.Name = "imgSweaterWeather";
+            this.imgSweaterWeather.TabStop = false;
             // 
             // btnPlaySweaterWeather
             // 
@@ -632,12 +844,18 @@
             this.btnPlaySweaterWeather.UseVisualStyleBackColor = true;
             this.btnPlaySweaterWeather.Click += new System.EventHandler(this.btnPlaySweaterWeather_Click);
             // 
-            // imgSweaterWeather
+            // btnStopSweaterWeather
             // 
-            this.imgSweaterWeather.BackgroundImage = global::CloneSpotify.Properties.Resources.musica_img1;
-            resources.ApplyResources(this.imgSweaterWeather, "imgSweaterWeather");
-            this.imgSweaterWeather.Name = "imgSweaterWeather";
-            this.imgSweaterWeather.TabStop = false;
+            this.btnStopSweaterWeather.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_pausar;
+            resources.ApplyResources(this.btnStopSweaterWeather, "btnStopSweaterWeather");
+            this.btnStopSweaterWeather.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStopSweaterWeather.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnStopSweaterWeather.FlatAppearance.BorderSize = 0;
+            this.btnStopSweaterWeather.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnStopSweaterWeather.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnStopSweaterWeather.Name = "btnStopSweaterWeather";
+            this.btnStopSweaterWeather.UseVisualStyleBackColor = true;
+            this.btnStopSweaterWeather.Click += new System.EventHandler(this.btnStopSweaterWeather_Click);
             // 
             // btnPlay
             // 
@@ -652,6 +870,25 @@
             this.btnPlay.UseVisualStyleBackColor = true;
             this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
+            // btnCurtidoDoIWannaKnow
+            // 
+            this.btnCurtidoDoIWannaKnow.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_favoritado1;
+            resources.ApplyResources(this.btnCurtidoDoIWannaKnow, "btnCurtidoDoIWannaKnow");
+            this.btnCurtidoDoIWannaKnow.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCurtidoDoIWannaKnow.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCurtidoDoIWannaKnow.FlatAppearance.BorderSize = 0;
+            this.btnCurtidoDoIWannaKnow.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCurtidoDoIWannaKnow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCurtidoDoIWannaKnow.Name = "btnCurtidoDoIWannaKnow";
+            this.btnCurtidoDoIWannaKnow.UseVisualStyleBackColor = true;
+            // 
+            // imgDoIWannaKnow
+            // 
+            this.imgDoIWannaKnow.BackgroundImage = global::CloneSpotify.Properties.Resources.musica_img2;
+            resources.ApplyResources(this.imgDoIWannaKnow, "imgDoIWannaKnow");
+            this.imgDoIWannaKnow.Name = "imgDoIWannaKnow";
+            this.imgDoIWannaKnow.TabStop = false;
+            // 
             // btnDoIWannaKnow
             // 
             this.btnDoIWannaKnow.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_play2;
@@ -665,6 +902,19 @@
             this.btnDoIWannaKnow.UseVisualStyleBackColor = true;
             this.btnDoIWannaKnow.Click += new System.EventHandler(this.btnDoIWannaKnow_Click);
             // 
+            // btnStopDoIWannaKnow
+            // 
+            this.btnStopDoIWannaKnow.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_pausar;
+            resources.ApplyResources(this.btnStopDoIWannaKnow, "btnStopDoIWannaKnow");
+            this.btnStopDoIWannaKnow.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStopDoIWannaKnow.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnStopDoIWannaKnow.FlatAppearance.BorderSize = 0;
+            this.btnStopDoIWannaKnow.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnStopDoIWannaKnow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnStopDoIWannaKnow.Name = "btnStopDoIWannaKnow";
+            this.btnStopDoIWannaKnow.UseVisualStyleBackColor = true;
+            this.btnStopDoIWannaKnow.Click += new System.EventHandler(this.btnStopDoIWannaKnow_Click);
+            // 
             // btnFavoritarDoIWannaKnow
             // 
             this.btnFavoritarDoIWannaKnow.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_favoritar;
@@ -676,13 +926,7 @@
             this.btnFavoritarDoIWannaKnow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.btnFavoritarDoIWannaKnow.Name = "btnFavoritarDoIWannaKnow";
             this.btnFavoritarDoIWannaKnow.UseVisualStyleBackColor = true;
-            // 
-            // imgDoIWannaKnow
-            // 
-            this.imgDoIWannaKnow.BackgroundImage = global::CloneSpotify.Properties.Resources.musica_img2;
-            resources.ApplyResources(this.imgDoIWannaKnow, "imgDoIWannaKnow");
-            this.imgDoIWannaKnow.Name = "imgDoIWannaKnow";
-            this.imgDoIWannaKnow.TabStop = false;
+            this.btnFavoritarDoIWannaKnow.Click += new System.EventHandler(this.btnFavoritarDoIWannaKnow_Click);
             // 
             // imgIconeBibliotecaDeMusicas
             // 
@@ -848,69 +1092,41 @@
             this.imgDoIWanaKnowCURTIDA.Name = "imgDoIWanaKnowCURTIDA";
             this.imgDoIWanaKnowCURTIDA.TabStop = false;
             // 
-            // btnStopDoIWannaKnow
+            // btnCurtidoSweaterWheather
             // 
-            this.btnStopDoIWannaKnow.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_pausar;
-            resources.ApplyResources(this.btnStopDoIWannaKnow, "btnStopDoIWannaKnow");
-            this.btnStopDoIWannaKnow.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnStopDoIWannaKnow.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnStopDoIWannaKnow.FlatAppearance.BorderSize = 0;
-            this.btnStopDoIWannaKnow.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnStopDoIWannaKnow.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnStopDoIWannaKnow.Name = "btnStopDoIWannaKnow";
-            this.btnStopDoIWannaKnow.UseVisualStyleBackColor = true;
-            this.btnStopDoIWannaKnow.Click += new System.EventHandler(this.btnStopDoIWannaKnow_Click);
+            this.btnCurtidoSweaterWheather.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_favoritado1;
+            resources.ApplyResources(this.btnCurtidoSweaterWheather, "btnCurtidoSweaterWheather");
+            this.btnCurtidoSweaterWheather.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCurtidoSweaterWheather.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCurtidoSweaterWheather.FlatAppearance.BorderSize = 0;
+            this.btnCurtidoSweaterWheather.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCurtidoSweaterWheather.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCurtidoSweaterWheather.Name = "btnCurtidoSweaterWheather";
+            this.btnCurtidoSweaterWheather.UseVisualStyleBackColor = true;
             // 
-            // btnStopSweaterWeather
+            // btnCurtidoWithoutMe
             // 
-            this.btnStopSweaterWeather.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_pausar;
-            resources.ApplyResources(this.btnStopSweaterWeather, "btnStopSweaterWeather");
-            this.btnStopSweaterWeather.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnStopSweaterWeather.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnStopSweaterWeather.FlatAppearance.BorderSize = 0;
-            this.btnStopSweaterWeather.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnStopSweaterWeather.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnStopSweaterWeather.Name = "btnStopSweaterWeather";
-            this.btnStopSweaterWeather.UseVisualStyleBackColor = true;
-            this.btnStopSweaterWeather.Click += new System.EventHandler(this.btnStopSweaterWeather_Click);
+            this.btnCurtidoWithoutMe.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_favoritado1;
+            resources.ApplyResources(this.btnCurtidoWithoutMe, "btnCurtidoWithoutMe");
+            this.btnCurtidoWithoutMe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCurtidoWithoutMe.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCurtidoWithoutMe.FlatAppearance.BorderSize = 0;
+            this.btnCurtidoWithoutMe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCurtidoWithoutMe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCurtidoWithoutMe.Name = "btnCurtidoWithoutMe";
+            this.btnCurtidoWithoutMe.UseVisualStyleBackColor = true;
             // 
-            // btnStopWithoutMe
+            // btnCurtidoAlive
             // 
-            this.btnStopWithoutMe.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_pausar;
-            resources.ApplyResources(this.btnStopWithoutMe, "btnStopWithoutMe");
-            this.btnStopWithoutMe.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnStopWithoutMe.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnStopWithoutMe.FlatAppearance.BorderSize = 0;
-            this.btnStopWithoutMe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnStopWithoutMe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnStopWithoutMe.Name = "btnStopWithoutMe";
-            this.btnStopWithoutMe.UseVisualStyleBackColor = true;
-            this.btnStopWithoutMe.Click += new System.EventHandler(this.btnStopWithoutMe_Click);
-            // 
-            // btnStopAlive
-            // 
-            this.btnStopAlive.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_pausar;
-            resources.ApplyResources(this.btnStopAlive, "btnStopAlive");
-            this.btnStopAlive.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnStopAlive.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnStopAlive.FlatAppearance.BorderSize = 0;
-            this.btnStopAlive.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnStopAlive.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.btnStopAlive.Name = "btnStopAlive";
-            this.btnStopAlive.UseVisualStyleBackColor = true;
-            this.btnStopAlive.Click += new System.EventHandler(this.btnStopAlive_Click);
-            // 
-            // lblTituloAleatorio
-            // 
-            resources.ApplyResources(this.lblTituloAleatorio, "lblTituloAleatorio");
-            this.lblTituloAleatorio.ForeColor = System.Drawing.Color.White;
-            this.lblTituloAleatorio.Name = "lblTituloAleatorio";
-            // 
-            // lblTeste
-            // 
-            resources.ApplyResources(this.lblTeste, "lblTeste");
-            this.lblTeste.ForeColor = System.Drawing.Color.White;
-            this.lblTeste.Name = "lblTeste";
+            this.btnCurtidoAlive.BackgroundImage = global::CloneSpotify.Properties.Resources.btn_favoritado1;
+            resources.ApplyResources(this.btnCurtidoAlive, "btnCurtidoAlive");
+            this.btnCurtidoAlive.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCurtidoAlive.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCurtidoAlive.FlatAppearance.BorderSize = 0;
+            this.btnCurtidoAlive.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCurtidoAlive.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btnCurtidoAlive.Name = "btnCurtidoAlive";
+            this.btnCurtidoAlive.UseVisualStyleBackColor = true;
             // 
             // TelaPrincipal
             // 
@@ -918,6 +1134,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.Controls.Add(this.painelTocando);
             this.Controls.Add(this.btnCurtidas);
             this.Controls.Add(this.linha1);
             this.Controls.Add(this.linha2);
@@ -927,9 +1144,9 @@
             this.Controls.Add(this.btnInicio);
             this.Controls.Add(this.CorDeBaixo);
             this.Controls.Add(this.CorDaEsquerda);
+            this.Controls.Add(this.painelMusicasCurtidas);
             this.Controls.Add(this.painelBiblioteca);
             this.Controls.Add(this.painelInicio);
-            this.Controls.Add(this.painelMusicasCurtidas);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "TelaPrincipal";
@@ -954,6 +1171,12 @@
             this.PainelAliveCurtida.PerformLayout();
             this.PainelDoIWannaKnowCurtida.ResumeLayout(false);
             this.PainelDoIWannaKnowCurtida.PerformLayout();
+            this.painelTocando.ResumeLayout(false);
+            this.painelTocando.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgFotoDoIWannaKnow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgFotoSweaterWeather)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgFotoAlive)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgFotoWithoutMe)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.linha1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.linha2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconeSpotify)).EndInit();
@@ -1061,6 +1284,24 @@
         private System.Windows.Forms.Button btnStopSweaterWeather;
         private System.Windows.Forms.Label lblTituloAleatorio;
         private System.Windows.Forms.Label lblTeste;
+        private System.Windows.Forms.Panel painelTocando;
+        private System.Windows.Forms.Label lblDuracao;
+        private System.Windows.Forms.Label lblArtista;
+        private System.Windows.Forms.Label lblNomeMusica;
+        private System.Windows.Forms.PictureBox imgFotoDoIWannaKnow;
+        private System.Windows.Forms.Button btnPlayBaixo;
+        private System.Windows.Forms.Button btnProximaDireita;
+        private System.Windows.Forms.Button btnProximaEsquerda;
+        private System.Windows.Forms.Button btnLoop;
+        private System.Windows.Forms.Button btnAleatorizar;
+        private System.Windows.Forms.Button btnPausarBaixo;
+        private System.Windows.Forms.PictureBox imgFotoSweaterWeather;
+        private System.Windows.Forms.PictureBox imgFotoWithoutMe;
+        private System.Windows.Forms.PictureBox imgFotoAlive;
+        private System.Windows.Forms.Button btnCurtidoDoIWannaKnow;
+        private System.Windows.Forms.Button btnCurtidoAlive;
+        private System.Windows.Forms.Button btnCurtidoWithoutMe;
+        private System.Windows.Forms.Button btnCurtidoSweaterWheather;
     }
 }
 

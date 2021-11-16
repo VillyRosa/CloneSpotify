@@ -118,73 +118,94 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btn-pausar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn-pausar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="musica-img3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\musica-img3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btn-favoritar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn-favoritar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icone-biblioteca" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icone-biblioteca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btn-inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn-inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="linha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\linha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icone-musica1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icone-musica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="musica-img11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\musica-img1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn-play1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn-play1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btn-play" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn-play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="csharp-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\csharp-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="musica-img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\musica-img1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="linha-branca" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\linha-branca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icone-spotify" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icone-spotify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btn-play1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn-play1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="botao-play" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botao-play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icone-casinha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icone-casinha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icone-favoritas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icone-favoritas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="musica-img4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\musica-img4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="musica-img11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musica-img1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="musica-img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\musica-img2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icone-musicas-curtidas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icone-musicas-curtidas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn-proximo-direita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn-proximo-direita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btn-favoritado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btn-favoritado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="musica-img4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musica-img4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn-proximo-esquerda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn-proximo-esquerda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botao-play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao-play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn-loop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn-loop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icone-spotify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icone-spotify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="linha-branca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\linha-branca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icone-musica1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icone-musica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icone-musica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icone-musica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icone-musicas-curtidas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icone-musicas-curtidas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn-favoritar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn-favoritar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn-aleatoriar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn-aleatoriar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icone-casinha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icone-casinha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="musica-img3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musica-img3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn-play-baixo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn-play-baixo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="musica-img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musica-img1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn-pausar-baixo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn-pausar-baixo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icone-favoritas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icone-favoritas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn-inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn-inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn-favoritado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn-favoritado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="btn-play2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btn-play2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn-pausar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn-pausar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icone-biblioteca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icone-biblioteca.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="csharp-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\csharp-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="linha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\linha.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn-favoritado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn-favoritado1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

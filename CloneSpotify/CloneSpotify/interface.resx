@@ -142,7 +142,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CorDaEsquerda.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="CorDeBaixo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -166,7 +166,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CorDeBaixo.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="lblSpotify.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -199,7 +199,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblSpotify.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
     <value>pictureBox1</value>
@@ -292,7 +292,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;painelInicio.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 14.25pt, style=Bold</value>
@@ -310,7 +310,7 @@
     <value>7</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>GitHub: VillyRosa</value>
+    <value>GitHub: https://github.com/VillyRosa</value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
@@ -417,11 +417,143 @@
   <data name="painelBiblioteca.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="&gt;&gt;lblTeste.Name" xml:space="preserve">
+    <value>lblTeste</value>
+  </data>
+  <data name="&gt;&gt;lblTeste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTeste.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;lblTeste.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblTituloAleatorio.Name" xml:space="preserve">
+    <value>lblTituloAleatorio</value>
+  </data>
+  <data name="&gt;&gt;lblTituloAleatorio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTituloAleatorio.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;lblTituloAleatorio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;PainelAlive.Name" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;PainelAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PainelAlive.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;PainelAlive.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PainelWithoutMe.Name" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;PainelWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PainelWithoutMe.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;PainelWithoutMe.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;PainelSweaterWeather.Name" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;PainelSweaterWeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PainelSweaterWeather.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;PainelSweaterWeather.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnPlay.Name" xml:space="preserve">
+    <value>btnPlay</value>
+  </data>
+  <data name="&gt;&gt;btnPlay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlay.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;btnPlay.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;PainelDoIWannaKnow.Name" xml:space="preserve">
+    <value>PainelDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;PainelDoIWannaKnow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PainelDoIWannaKnow.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;PainelDoIWannaKnow.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;imgIconeBibliotecaDeMusicas.Name" xml:space="preserve">
+    <value>imgIconeBibliotecaDeMusicas</value>
+  </data>
+  <data name="&gt;&gt;imgIconeBibliotecaDeMusicas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgIconeBibliotecaDeMusicas.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;imgIconeBibliotecaDeMusicas.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblTituloBiblioteca.Name" xml:space="preserve">
+    <value>lblTituloBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;lblTituloBiblioteca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTituloBiblioteca.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;lblTituloBiblioteca.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="painelBiblioteca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, -1</value>
+  </data>
+  <data name="painelBiblioteca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 381</value>
+  </data>
+  <data name="painelBiblioteca.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;painelBiblioteca.Name" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;painelBiblioteca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;painelBiblioteca.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;painelBiblioteca.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
   <data name="lblTeste.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lblTeste.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="lblTeste.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="lblTeste.Location" type="System.Drawing.Point, System.Drawing">
     <value>452, 83</value>
@@ -474,23 +606,77 @@
   <data name="&gt;&gt;lblTituloAleatorio.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="btnFavoritarAlive.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="&gt;&gt;lblTempoAlive.Name" xml:space="preserve">
+    <value>lblTempoAlive</value>
   </data>
-  <data name="btnFavoritarAlive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;lblTempoAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnFavoritarAlive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;lblTempoAlive.Parent" xml:space="preserve">
+    <value>PainelAlive</value>
   </data>
-  <data name="btnFavoritarAlive.Location" type="System.Drawing.Point, System.Drawing">
-    <value>431, 19</value>
+  <data name="&gt;&gt;lblTempoAlive.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="btnFavoritarAlive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
+  <data name="&gt;&gt;lblAlok.Name" xml:space="preserve">
+    <value>lblAlok</value>
   </data>
-  <data name="btnFavoritarAlive.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;lblAlok.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAlok.Parent" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;lblAlok.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblAlive.Name" xml:space="preserve">
+    <value>lblAlive</value>
+  </data>
+  <data name="&gt;&gt;lblAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAlive.Parent" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;lblAlive.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnPlayAlive.Name" xml:space="preserve">
+    <value>btnPlayAlive</value>
+  </data>
+  <data name="&gt;&gt;btnPlayAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlayAlive.Parent" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;btnPlayAlive.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnStopAlive.Name" xml:space="preserve">
+    <value>btnStopAlive</value>
+  </data>
+  <data name="&gt;&gt;btnStopAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStopAlive.Parent" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;btnStopAlive.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;btnFavoritarAlive.Name" xml:space="preserve">
     <value>btnFavoritarAlive</value>
@@ -502,7 +688,40 @@
     <value>PainelAlive</value>
   </data>
   <data name="&gt;&gt;btnFavoritarAlive.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoAlive.Name" xml:space="preserve">
+    <value>btnCurtidoAlive</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoAlive.Parent" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoAlive.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="PainelAlive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 315</value>
+  </data>
+  <data name="PainelAlive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 52</value>
+  </data>
+  <data name="PainelAlive.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;PainelAlive.Name" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;PainelAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PainelAlive.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;PainelAlive.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="lblTempoAlive.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -535,7 +754,7 @@
     <value>PainelAlive</value>
   </data>
   <data name="&gt;&gt;lblTempoAlive.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="lblAlok.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -568,7 +787,7 @@
     <value>PainelAlive</value>
   </data>
   <data name="&gt;&gt;lblAlok.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="lblAlive.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -601,136 +820,79 @@
     <value>PainelAlive</value>
   </data>
   <data name="&gt;&gt;lblAlive.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="pictureBox3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, -4</value>
-  </data>
-  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 60</value>
-  </data>
-  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
-    <value>pictureBox3</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
-    <value>PainelAlive</value>
-  </data>
-  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnPlayAlive.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnPlayAlive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnPlayAlive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnPlayAlive.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 19</value>
-  </data>
-  <data name="btnPlayAlive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="btnPlayAlive.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnPlayAlive.Name" xml:space="preserve">
-    <value>btnPlayAlive</value>
-  </data>
-  <data name="&gt;&gt;btnPlayAlive.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnPlayAlive.Parent" xml:space="preserve">
-    <value>PainelAlive</value>
-  </data>
-  <data name="&gt;&gt;btnPlayAlive.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="btnStopAlive.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnStopAlive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnStopAlive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnStopAlive.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 19</value>
-  </data>
-  <data name="btnStopAlive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="btnStopAlive.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="btnStopAlive.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;btnStopAlive.Name" xml:space="preserve">
-    <value>btnStopAlive</value>
-  </data>
-  <data name="&gt;&gt;btnStopAlive.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnStopAlive.Parent" xml:space="preserve">
-    <value>PainelAlive</value>
-  </data>
-  <data name="&gt;&gt;btnStopAlive.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="PainelAlive.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 315</value>
-  </data>
-  <data name="PainelAlive.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 52</value>
-  </data>
-  <data name="PainelAlive.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;PainelAlive.Name" xml:space="preserve">
-    <value>PainelAlive</value>
-  </data>
-  <data name="&gt;&gt;PainelAlive.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PainelAlive.Parent" xml:space="preserve">
-    <value>painelBiblioteca</value>
-  </data>
-  <data name="&gt;&gt;PainelAlive.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="btnFavoritarWithoutMe.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="&gt;&gt;lblTempoWithoutMe.Name" xml:space="preserve">
+    <value>lblTempoWithoutMe</value>
   </data>
-  <data name="btnFavoritarWithoutMe.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;lblTempoWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnFavoritarWithoutMe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;lblTempoWithoutMe.Parent" xml:space="preserve">
+    <value>PainelWithoutMe</value>
   </data>
-  <data name="btnFavoritarWithoutMe.Location" type="System.Drawing.Point, System.Drawing">
-    <value>431, 19</value>
+  <data name="&gt;&gt;lblTempoWithoutMe.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="btnFavoritarWithoutMe.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
+  <data name="&gt;&gt;lblEminem.Name" xml:space="preserve">
+    <value>lblEminem</value>
   </data>
-  <data name="btnFavoritarWithoutMe.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;lblEminem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEminem.Parent" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;lblEminem.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblWithoutMe.Name" xml:space="preserve">
+    <value>lblWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;lblWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblWithoutMe.Parent" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;lblWithoutMe.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnPlayWithoutMe.Name" xml:space="preserve">
+    <value>btnPlayWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnPlayWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlayWithoutMe.Parent" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnPlayWithoutMe.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnStopWithoutMe.Name" xml:space="preserve">
+    <value>btnStopWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnStopWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStopWithoutMe.Parent" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnStopWithoutMe.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;btnFavoritarWithoutMe.Name" xml:space="preserve">
     <value>btnFavoritarWithoutMe</value>
@@ -742,7 +904,40 @@
     <value>PainelWithoutMe</value>
   </data>
   <data name="&gt;&gt;btnFavoritarWithoutMe.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoWithoutMe.Name" xml:space="preserve">
+    <value>btnCurtidoWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoWithoutMe.Parent" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoWithoutMe.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="PainelWithoutMe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 257</value>
+  </data>
+  <data name="PainelWithoutMe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 52</value>
+  </data>
+  <data name="PainelWithoutMe.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;PainelWithoutMe.Name" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;PainelWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PainelWithoutMe.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;PainelWithoutMe.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="lblTempoWithoutMe.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -775,7 +970,7 @@
     <value>PainelWithoutMe</value>
   </data>
   <data name="&gt;&gt;lblTempoWithoutMe.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="lblEminem.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -808,7 +1003,7 @@
     <value>PainelWithoutMe</value>
   </data>
   <data name="&gt;&gt;lblEminem.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="lblWithoutMe.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -841,136 +1036,79 @@
     <value>PainelWithoutMe</value>
   </data>
   <data name="&gt;&gt;lblWithoutMe.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
-  <data name="pictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="&gt;&gt;lblTempoSweaterWeather.Name" xml:space="preserve">
+    <value>lblTempoSweaterWeather</value>
   </data>
-  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;lblTempoSweaterWeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, -4</value>
+  <data name="&gt;&gt;lblTempoSweaterWeather.Parent" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
   </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 60</value>
-  </data>
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;lblTempoSweaterWeather.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
+  <data name="&gt;&gt;lblTheNightbourhood.Name" xml:space="preserve">
+    <value>lblTheNightbourhood</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblTheNightbourhood.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTheNightbourhood.Parent" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;lblTheNightbourhood.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblSweatherWeather.Name" xml:space="preserve">
+    <value>lblSweatherWeather</value>
+  </data>
+  <data name="&gt;&gt;lblSweatherWeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSweatherWeather.Parent" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;lblSweatherWeather.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;imgSweaterWeather.Name" xml:space="preserve">
+    <value>imgSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;imgSweaterWeather.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
-    <value>PainelWithoutMe</value>
+  <data name="&gt;&gt;imgSweaterWeather.Parent" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnPlayWithoutMe.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnPlayWithoutMe.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnPlayWithoutMe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnPlayWithoutMe.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 19</value>
-  </data>
-  <data name="btnPlayWithoutMe.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="btnPlayWithoutMe.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnPlayWithoutMe.Name" xml:space="preserve">
-    <value>btnPlayWithoutMe</value>
-  </data>
-  <data name="&gt;&gt;btnPlayWithoutMe.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnPlayWithoutMe.Parent" xml:space="preserve">
-    <value>PainelWithoutMe</value>
-  </data>
-  <data name="&gt;&gt;btnPlayWithoutMe.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="btnStopWithoutMe.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnStopWithoutMe.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnStopWithoutMe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnStopWithoutMe.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 19</value>
-  </data>
-  <data name="btnStopWithoutMe.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="btnStopWithoutMe.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="btnStopWithoutMe.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;btnStopWithoutMe.Name" xml:space="preserve">
-    <value>btnStopWithoutMe</value>
-  </data>
-  <data name="&gt;&gt;btnStopWithoutMe.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnStopWithoutMe.Parent" xml:space="preserve">
-    <value>PainelWithoutMe</value>
-  </data>
-  <data name="&gt;&gt;btnStopWithoutMe.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="PainelWithoutMe.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 257</value>
-  </data>
-  <data name="PainelWithoutMe.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 52</value>
-  </data>
-  <data name="PainelWithoutMe.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;PainelWithoutMe.Name" xml:space="preserve">
-    <value>PainelWithoutMe</value>
-  </data>
-  <data name="&gt;&gt;PainelWithoutMe.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PainelWithoutMe.Parent" xml:space="preserve">
-    <value>painelBiblioteca</value>
-  </data>
-  <data name="&gt;&gt;PainelWithoutMe.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;imgSweaterWeather.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="btnFavoritarSweaterWeather.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="&gt;&gt;btnPlaySweaterWeather.Name" xml:space="preserve">
+    <value>btnPlaySweaterWeather</value>
   </data>
-  <data name="btnFavoritarSweaterWeather.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="&gt;&gt;btnPlaySweaterWeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnFavoritarSweaterWeather.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;btnPlaySweaterWeather.Parent" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
   </data>
-  <data name="btnFavoritarSweaterWeather.Location" type="System.Drawing.Point, System.Drawing">
-    <value>431, 19</value>
+  <data name="&gt;&gt;btnPlaySweaterWeather.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="btnFavoritarSweaterWeather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
+  <data name="&gt;&gt;btnStopSweaterWeather.Name" xml:space="preserve">
+    <value>btnStopSweaterWeather</value>
   </data>
-  <data name="btnFavoritarSweaterWeather.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;btnStopSweaterWeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStopSweaterWeather.Parent" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;btnStopSweaterWeather.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;btnFavoritarSweaterWeather.Name" xml:space="preserve">
     <value>btnFavoritarSweaterWeather</value>
@@ -982,7 +1120,40 @@
     <value>PainelSweaterWeather</value>
   </data>
   <data name="&gt;&gt;btnFavoritarSweaterWeather.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoSweaterWheather.Name" xml:space="preserve">
+    <value>btnCurtidoSweaterWheather</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoSweaterWheather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoSweaterWheather.Parent" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoSweaterWheather.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="PainelSweaterWeather.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 199</value>
+  </data>
+  <data name="PainelSweaterWeather.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 52</value>
+  </data>
+  <data name="PainelSweaterWeather.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;PainelSweaterWeather.Name" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;PainelSweaterWeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PainelSweaterWeather.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;PainelSweaterWeather.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="lblTempoSweaterWeather.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1015,7 +1186,7 @@
     <value>PainelSweaterWeather</value>
   </data>
   <data name="&gt;&gt;lblTempoSweaterWeather.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="lblTheNightbourhood.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1048,7 +1219,7 @@
     <value>PainelSweaterWeather</value>
   </data>
   <data name="&gt;&gt;lblTheNightbourhood.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="lblSweatherWeather.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1081,147 +1252,78 @@
     <value>PainelSweaterWeather</value>
   </data>
   <data name="&gt;&gt;lblSweatherWeather.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
-  <data name="imgSweaterWeather.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="&gt;&gt;lblTempoDoIWannaKnow.Name" xml:space="preserve">
+    <value>lblTempoDoIWannaKnow</value>
   </data>
-  <data name="imgSweaterWeather.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;lblTempoDoIWannaKnow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="imgSweaterWeather.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, -4</value>
+  <data name="&gt;&gt;lblTempoDoIWannaKnow.Parent" xml:space="preserve">
+    <value>PainelDoIWannaKnow</value>
   </data>
-  <data name="imgSweaterWeather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 60</value>
-  </data>
-  <data name="imgSweaterWeather.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;lblTempoDoIWannaKnow.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;imgSweaterWeather.Name" xml:space="preserve">
-    <value>imgSweaterWeather</value>
+  <data name="&gt;&gt;lblArticMonkeys.Name" xml:space="preserve">
+    <value>lblArticMonkeys</value>
   </data>
-  <data name="&gt;&gt;imgSweaterWeather.Type" xml:space="preserve">
+  <data name="&gt;&gt;lblArticMonkeys.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArticMonkeys.Parent" xml:space="preserve">
+    <value>PainelDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;lblArticMonkeys.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblDoIWannaKnow.Name" xml:space="preserve">
+    <value>lblDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;lblDoIWannaKnow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDoIWannaKnow.Parent" xml:space="preserve">
+    <value>PainelDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;lblDoIWannaKnow.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;imgDoIWannaKnow.Name" xml:space="preserve">
+    <value>imgDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;imgDoIWannaKnow.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;imgSweaterWeather.Parent" xml:space="preserve">
-    <value>PainelSweaterWeather</value>
+  <data name="&gt;&gt;imgDoIWannaKnow.Parent" xml:space="preserve">
+    <value>PainelDoIWannaKnow</value>
   </data>
-  <data name="&gt;&gt;imgSweaterWeather.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnPlaySweaterWeather.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnPlaySweaterWeather.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnPlaySweaterWeather.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnPlaySweaterWeather.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 19</value>
-  </data>
-  <data name="btnPlaySweaterWeather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="btnPlaySweaterWeather.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnPlaySweaterWeather.Name" xml:space="preserve">
-    <value>btnPlaySweaterWeather</value>
-  </data>
-  <data name="&gt;&gt;btnPlaySweaterWeather.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnPlaySweaterWeather.Parent" xml:space="preserve">
-    <value>PainelSweaterWeather</value>
-  </data>
-  <data name="&gt;&gt;btnPlaySweaterWeather.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="btnStopSweaterWeather.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnStopSweaterWeather.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnStopSweaterWeather.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnStopSweaterWeather.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 19</value>
-  </data>
-  <data name="btnStopSweaterWeather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
-  </data>
-  <data name="btnStopSweaterWeather.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="btnStopSweaterWeather.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;btnStopSweaterWeather.Name" xml:space="preserve">
-    <value>btnStopSweaterWeather</value>
-  </data>
-  <data name="&gt;&gt;btnStopSweaterWeather.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnStopSweaterWeather.Parent" xml:space="preserve">
-    <value>PainelSweaterWeather</value>
-  </data>
-  <data name="&gt;&gt;btnStopSweaterWeather.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="PainelSweaterWeather.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 199</value>
-  </data>
-  <data name="PainelSweaterWeather.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 52</value>
-  </data>
-  <data name="PainelSweaterWeather.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;PainelSweaterWeather.Name" xml:space="preserve">
-    <value>PainelSweaterWeather</value>
-  </data>
-  <data name="&gt;&gt;PainelSweaterWeather.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PainelSweaterWeather.Parent" xml:space="preserve">
-    <value>painelBiblioteca</value>
-  </data>
-  <data name="&gt;&gt;PainelSweaterWeather.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnPlay.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="btnPlay.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnPlay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnPlay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 83</value>
-  </data>
-  <data name="btnPlay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 52</value>
-  </data>
-  <data name="btnPlay.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;imgDoIWannaKnow.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;btnPlay.Name" xml:space="preserve">
-    <value>btnPlay</value>
+  <data name="&gt;&gt;btnDoIWannaKnow.Name" xml:space="preserve">
+    <value>btnDoIWannaKnow</value>
   </data>
-  <data name="&gt;&gt;btnPlay.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnDoIWannaKnow.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnPlay.Parent" xml:space="preserve">
-    <value>painelBiblioteca</value>
+  <data name="&gt;&gt;btnDoIWannaKnow.Parent" xml:space="preserve">
+    <value>PainelDoIWannaKnow</value>
   </data>
-  <data name="&gt;&gt;btnPlay.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnDoIWannaKnow.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnStopDoIWannaKnow.Name" xml:space="preserve">
+    <value>btnStopDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;btnStopDoIWannaKnow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStopDoIWannaKnow.Parent" xml:space="preserve">
+    <value>PainelDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;btnStopDoIWannaKnow.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="&gt;&gt;btnFavoritarDoIWannaKnow.Name" xml:space="preserve">
@@ -1234,79 +1336,19 @@
     <value>PainelDoIWannaKnow</value>
   </data>
   <data name="&gt;&gt;btnFavoritarDoIWannaKnow.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lblTempoDoIWannaKnow.Name" xml:space="preserve">
-    <value>lblTempoDoIWannaKnow</value>
-  </data>
-  <data name="&gt;&gt;lblTempoDoIWannaKnow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTempoDoIWannaKnow.Parent" xml:space="preserve">
-    <value>PainelDoIWannaKnow</value>
-  </data>
-  <data name="&gt;&gt;lblTempoDoIWannaKnow.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lblArticMonkeys.Name" xml:space="preserve">
-    <value>lblArticMonkeys</value>
-  </data>
-  <data name="&gt;&gt;lblArticMonkeys.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblArticMonkeys.Parent" xml:space="preserve">
-    <value>PainelDoIWannaKnow</value>
-  </data>
-  <data name="&gt;&gt;lblArticMonkeys.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lblDoIWannaKnow.Name" xml:space="preserve">
-    <value>lblDoIWannaKnow</value>
-  </data>
-  <data name="&gt;&gt;lblDoIWannaKnow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblDoIWannaKnow.Parent" xml:space="preserve">
-    <value>PainelDoIWannaKnow</value>
-  </data>
-  <data name="&gt;&gt;lblDoIWannaKnow.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;imgDoIWannaKnow.Name" xml:space="preserve">
-    <value>imgDoIWannaKnow</value>
-  </data>
-  <data name="&gt;&gt;imgDoIWannaKnow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;imgDoIWannaKnow.Parent" xml:space="preserve">
-    <value>PainelDoIWannaKnow</value>
-  </data>
-  <data name="&gt;&gt;imgDoIWannaKnow.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;btnDoIWannaKnow.Name" xml:space="preserve">
-    <value>btnDoIWannaKnow</value>
-  </data>
-  <data name="&gt;&gt;btnDoIWannaKnow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnDoIWannaKnow.Parent" xml:space="preserve">
-    <value>PainelDoIWannaKnow</value>
-  </data>
-  <data name="&gt;&gt;btnDoIWannaKnow.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnStopDoIWannaKnow.Name" xml:space="preserve">
-    <value>btnStopDoIWannaKnow</value>
-  </data>
-  <data name="&gt;&gt;btnStopDoIWannaKnow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnStopDoIWannaKnow.Parent" xml:space="preserve">
-    <value>PainelDoIWannaKnow</value>
-  </data>
-  <data name="&gt;&gt;btnStopDoIWannaKnow.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoDoIWannaKnow.Name" xml:space="preserve">
+    <value>btnCurtidoDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoDoIWannaKnow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoDoIWannaKnow.Parent" xml:space="preserve">
+    <value>PainelDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoDoIWannaKnow.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="PainelDoIWannaKnow.Location" type="System.Drawing.Point, System.Drawing">
     <value>21, 141</value>
@@ -1328,84 +1370,6 @@
   </data>
   <data name="&gt;&gt;PainelDoIWannaKnow.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="imgIconeBibliotecaDeMusicas.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="imgIconeBibliotecaDeMusicas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 10</value>
-  </data>
-  <data name="imgIconeBibliotecaDeMusicas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 67</value>
-  </data>
-  <data name="imgIconeBibliotecaDeMusicas.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="imgIconeBibliotecaDeMusicas.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;imgIconeBibliotecaDeMusicas.Name" xml:space="preserve">
-    <value>imgIconeBibliotecaDeMusicas</value>
-  </data>
-  <data name="&gt;&gt;imgIconeBibliotecaDeMusicas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;imgIconeBibliotecaDeMusicas.Parent" xml:space="preserve">
-    <value>painelBiblioteca</value>
-  </data>
-  <data name="&gt;&gt;imgIconeBibliotecaDeMusicas.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="lblTituloBiblioteca.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Tai Le, 20.25pt, style=Bold</value>
-  </data>
-  <data name="lblTituloBiblioteca.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblTituloBiblioteca.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 29</value>
-  </data>
-  <data name="lblTituloBiblioteca.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 41</value>
-  </data>
-  <data name="lblTituloBiblioteca.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblTituloBiblioteca.Text" xml:space="preserve">
-    <value>Biblioteca de Músicas</value>
-  </data>
-  <data name="&gt;&gt;lblTituloBiblioteca.Name" xml:space="preserve">
-    <value>lblTituloBiblioteca</value>
-  </data>
-  <data name="&gt;&gt;lblTituloBiblioteca.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTituloBiblioteca.Parent" xml:space="preserve">
-    <value>painelBiblioteca</value>
-  </data>
-  <data name="&gt;&gt;lblTituloBiblioteca.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="painelBiblioteca.Location" type="System.Drawing.Point, System.Drawing">
-    <value>225, -1</value>
-  </data>
-  <data name="painelBiblioteca.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 381</value>
-  </data>
-  <data name="painelBiblioteca.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;painelBiblioteca.Name" xml:space="preserve">
-    <value>painelBiblioteca</value>
-  </data>
-  <data name="&gt;&gt;painelBiblioteca.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;painelBiblioteca.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;painelBiblioteca.ZOrder" xml:space="preserve">
-    <value>9</value>
   </data>
   <data name="lblTempoDoIWannaKnow.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1438,7 +1402,7 @@
     <value>PainelDoIWannaKnow</value>
   </data>
   <data name="&gt;&gt;lblTempoDoIWannaKnow.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="lblArticMonkeys.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1471,7 +1435,7 @@
     <value>PainelDoIWannaKnow</value>
   </data>
   <data name="&gt;&gt;lblArticMonkeys.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="lblDoIWannaKnow.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1504,7 +1468,37 @@
     <value>PainelDoIWannaKnow</value>
   </data>
   <data name="&gt;&gt;lblDoIWannaKnow.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
+  </data>
+  <data name="lblTituloBiblioteca.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 20.25pt, style=Bold</value>
+  </data>
+  <data name="lblTituloBiblioteca.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTituloBiblioteca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 29</value>
+  </data>
+  <data name="lblTituloBiblioteca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 41</value>
+  </data>
+  <data name="lblTituloBiblioteca.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblTituloBiblioteca.Text" xml:space="preserve">
+    <value>Biblioteca de Músicas</value>
+  </data>
+  <data name="&gt;&gt;lblTituloBiblioteca.Name" xml:space="preserve">
+    <value>lblTituloBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;lblTituloBiblioteca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTituloBiblioteca.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;lblTituloBiblioteca.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="painelMusicasCurtidas.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1588,7 +1582,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;painelMusicasCurtidas.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;btnCurtidaSweaterWeather.Name" xml:space="preserve">
     <value>btnCurtidaSweaterWeather</value>
@@ -2412,6 +2406,570 @@
   <data name="&gt;&gt;lblTituloCurtidas.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="&gt;&gt;btnAleatorizar.Name" xml:space="preserve">
+    <value>btnAleatorizar</value>
+  </data>
+  <data name="&gt;&gt;btnAleatorizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAleatorizar.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;btnAleatorizar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnLoop.Name" xml:space="preserve">
+    <value>btnLoop</value>
+  </data>
+  <data name="&gt;&gt;btnLoop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoop.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;btnLoop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnProximaEsquerda.Name" xml:space="preserve">
+    <value>btnProximaEsquerda</value>
+  </data>
+  <data name="&gt;&gt;btnProximaEsquerda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnProximaEsquerda.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;btnProximaEsquerda.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnProximaDireita.Name" xml:space="preserve">
+    <value>btnProximaDireita</value>
+  </data>
+  <data name="&gt;&gt;btnProximaDireita.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnProximaDireita.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;btnProximaDireita.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblDuracao.Name" xml:space="preserve">
+    <value>lblDuracao</value>
+  </data>
+  <data name="&gt;&gt;lblDuracao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDuracao.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;lblDuracao.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblArtista.Name" xml:space="preserve">
+    <value>lblArtista</value>
+  </data>
+  <data name="&gt;&gt;lblArtista.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArtista.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;lblArtista.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblNomeMusica.Name" xml:space="preserve">
+    <value>lblNomeMusica</value>
+  </data>
+  <data name="&gt;&gt;lblNomeMusica.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNomeMusica.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;lblNomeMusica.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnPlayBaixo.Name" xml:space="preserve">
+    <value>btnPlayBaixo</value>
+  </data>
+  <data name="&gt;&gt;btnPlayBaixo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlayBaixo.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;btnPlayBaixo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnPausarBaixo.Name" xml:space="preserve">
+    <value>btnPausarBaixo</value>
+  </data>
+  <data name="&gt;&gt;btnPausarBaixo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPausarBaixo.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;btnPausarBaixo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;imgFotoDoIWannaKnow.Name" xml:space="preserve">
+    <value>imgFotoDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;imgFotoDoIWannaKnow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgFotoDoIWannaKnow.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;imgFotoDoIWannaKnow.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;imgFotoSweaterWeather.Name" xml:space="preserve">
+    <value>imgFotoSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;imgFotoSweaterWeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgFotoSweaterWeather.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;imgFotoSweaterWeather.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;imgFotoAlive.Name" xml:space="preserve">
+    <value>imgFotoAlive</value>
+  </data>
+  <data name="&gt;&gt;imgFotoAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgFotoAlive.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;imgFotoAlive.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;imgFotoWithoutMe.Name" xml:space="preserve">
+    <value>imgFotoWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;imgFotoWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgFotoWithoutMe.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;imgFotoWithoutMe.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="painelTocando.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 390</value>
+  </data>
+  <data name="painelTocando.Size" type="System.Drawing.Size, System.Drawing">
+    <value>723, 68</value>
+  </data>
+  <data name="painelTocando.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;painelTocando.Name" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;painelTocando.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;painelTocando.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;painelTocando.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblDuracao.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDuracao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="lblDuracao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDuracao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 27</value>
+  </data>
+  <data name="lblDuracao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 15</value>
+  </data>
+  <data name="lblDuracao.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblDuracao.Text" xml:space="preserve">
+    <value>4:25</value>
+  </data>
+  <data name="&gt;&gt;lblDuracao.Name" xml:space="preserve">
+    <value>lblDuracao</value>
+  </data>
+  <data name="&gt;&gt;lblDuracao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDuracao.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;lblDuracao.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblArtista.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblArtista.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lblArtista.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblArtista.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 38</value>
+  </data>
+  <data name="lblArtista.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 16</value>
+  </data>
+  <data name="lblArtista.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblArtista.Text" xml:space="preserve">
+    <value>Artic Monkeys</value>
+  </data>
+  <data name="&gt;&gt;lblArtista.Name" xml:space="preserve">
+    <value>lblArtista</value>
+  </data>
+  <data name="&gt;&gt;lblArtista.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArtista.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;lblArtista.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblNomeMusica.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNomeMusica.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Tai Le, 14.25pt, style=Bold</value>
+  </data>
+  <data name="lblNomeMusica.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNomeMusica.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 15</value>
+  </data>
+  <data name="lblNomeMusica.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 23</value>
+  </data>
+  <data name="lblNomeMusica.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblNomeMusica.Text" xml:space="preserve">
+    <value>Do I Wanna Know</value>
+  </data>
+  <data name="&gt;&gt;lblNomeMusica.Name" xml:space="preserve">
+    <value>lblNomeMusica</value>
+  </data>
+  <data name="&gt;&gt;lblNomeMusica.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNomeMusica.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;lblNomeMusica.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnAleatorizar.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnAleatorizar.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAleatorizar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAleatorizar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 30</value>
+  </data>
+  <data name="btnAleatorizar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="btnAleatorizar.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;btnAleatorizar.Name" xml:space="preserve">
+    <value>btnAleatorizar</value>
+  </data>
+  <data name="&gt;&gt;btnAleatorizar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAleatorizar.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;btnAleatorizar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnLoop.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnLoop.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnLoop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLoop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 28</value>
+  </data>
+  <data name="btnLoop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 15</value>
+  </data>
+  <data name="btnLoop.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btnLoop.Name" xml:space="preserve">
+    <value>btnLoop</value>
+  </data>
+  <data name="&gt;&gt;btnLoop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLoop.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;btnLoop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnProximaEsquerda.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnProximaEsquerda.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnProximaEsquerda.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnProximaEsquerda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>318, 28</value>
+  </data>
+  <data name="btnProximaEsquerda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 14</value>
+  </data>
+  <data name="btnProximaEsquerda.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnProximaEsquerda.Name" xml:space="preserve">
+    <value>btnProximaEsquerda</value>
+  </data>
+  <data name="&gt;&gt;btnProximaEsquerda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnProximaEsquerda.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;btnProximaEsquerda.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnProximaDireita.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnProximaDireita.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnProximaDireita.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnProximaDireita.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 28</value>
+  </data>
+  <data name="btnProximaDireita.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 14</value>
+  </data>
+  <data name="btnProximaDireita.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnProximaDireita.Name" xml:space="preserve">
+    <value>btnProximaDireita</value>
+  </data>
+  <data name="&gt;&gt;btnProximaDireita.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnProximaDireita.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;btnProximaDireita.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnPlayBaixo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnPlayBaixo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPlayBaixo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPlayBaixo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>337, 12</value>
+  </data>
+  <data name="btnPlayBaixo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 46</value>
+  </data>
+  <data name="btnPlayBaixo.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnPlayBaixo.Name" xml:space="preserve">
+    <value>btnPlayBaixo</value>
+  </data>
+  <data name="&gt;&gt;btnPlayBaixo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlayBaixo.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;btnPlayBaixo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnPausarBaixo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnPausarBaixo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPausarBaixo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPausarBaixo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 12</value>
+  </data>
+  <data name="btnPausarBaixo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 46</value>
+  </data>
+  <data name="btnPausarBaixo.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btnPausarBaixo.Name" xml:space="preserve">
+    <value>btnPausarBaixo</value>
+  </data>
+  <data name="&gt;&gt;btnPausarBaixo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPausarBaixo.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;btnPausarBaixo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="imgFotoDoIWannaKnow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="imgFotoDoIWannaKnow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgFotoDoIWannaKnow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="imgFotoDoIWannaKnow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 68</value>
+  </data>
+  <data name="imgFotoDoIWannaKnow.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;imgFotoDoIWannaKnow.Name" xml:space="preserve">
+    <value>imgFotoDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;imgFotoDoIWannaKnow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgFotoDoIWannaKnow.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;imgFotoDoIWannaKnow.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="imgFotoSweaterWeather.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="imgFotoSweaterWeather.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgFotoSweaterWeather.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="imgFotoSweaterWeather.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 68</value>
+  </data>
+  <data name="imgFotoSweaterWeather.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;imgFotoSweaterWeather.Name" xml:space="preserve">
+    <value>imgFotoSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;imgFotoSweaterWeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgFotoSweaterWeather.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;imgFotoSweaterWeather.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="imgFotoAlive.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="imgFotoAlive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgFotoAlive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="imgFotoAlive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 68</value>
+  </data>
+  <data name="imgFotoAlive.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;imgFotoAlive.Name" xml:space="preserve">
+    <value>imgFotoAlive</value>
+  </data>
+  <data name="&gt;&gt;imgFotoAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgFotoAlive.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;imgFotoAlive.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="imgFotoWithoutMe.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="imgFotoWithoutMe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgFotoWithoutMe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 0</value>
+  </data>
+  <data name="imgFotoWithoutMe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 68</value>
+  </data>
+  <data name="imgFotoWithoutMe.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;imgFotoWithoutMe.Name" xml:space="preserve">
+    <value>imgFotoWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;imgFotoWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgFotoWithoutMe.Parent" xml:space="preserve">
+    <value>painelTocando</value>
+  </data>
+  <data name="&gt;&gt;imgFotoWithoutMe.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
   <data name="btnCurtidas.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -2449,7 +3007,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnCurtidas.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="linha1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2473,7 +3031,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;linha1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="linha2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2497,7 +3055,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;linha2.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="iconeSpotify.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2524,7 +3082,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;iconeSpotify.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="btnBiblioteca.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -2563,7 +3121,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnBiblioteca.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="btnInicio.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -2602,7 +3160,457 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnInicio.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnFavoritarAlive.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnFavoritarAlive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnFavoritarAlive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFavoritarAlive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 19</value>
+  </data>
+  <data name="btnFavoritarAlive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="btnFavoritarAlive.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnFavoritarAlive.Name" xml:space="preserve">
+    <value>btnFavoritarAlive</value>
+  </data>
+  <data name="&gt;&gt;btnFavoritarAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFavoritarAlive.Parent" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;btnFavoritarAlive.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pictureBox3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, -4</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 60</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnPlayAlive.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnPlayAlive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPlayAlive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPlayAlive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="btnPlayAlive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="btnPlayAlive.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnPlayAlive.Name" xml:space="preserve">
+    <value>btnPlayAlive</value>
+  </data>
+  <data name="&gt;&gt;btnPlayAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlayAlive.Parent" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;btnPlayAlive.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnStopAlive.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnStopAlive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStopAlive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStopAlive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="btnStopAlive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="btnStopAlive.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnStopAlive.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnStopAlive.Name" xml:space="preserve">
+    <value>btnStopAlive</value>
+  </data>
+  <data name="&gt;&gt;btnStopAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStopAlive.Parent" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;btnStopAlive.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnFavoritarWithoutMe.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnFavoritarWithoutMe.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnFavoritarWithoutMe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFavoritarWithoutMe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 19</value>
+  </data>
+  <data name="btnFavoritarWithoutMe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="btnFavoritarWithoutMe.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnFavoritarWithoutMe.Name" xml:space="preserve">
+    <value>btnFavoritarWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnFavoritarWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFavoritarWithoutMe.Parent" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnFavoritarWithoutMe.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pictureBox2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, -4</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 60</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnPlayWithoutMe.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnPlayWithoutMe.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPlayWithoutMe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPlayWithoutMe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="btnPlayWithoutMe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="btnPlayWithoutMe.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnPlayWithoutMe.Name" xml:space="preserve">
+    <value>btnPlayWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnPlayWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlayWithoutMe.Parent" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnPlayWithoutMe.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnStopWithoutMe.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnStopWithoutMe.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStopWithoutMe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStopWithoutMe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="btnStopWithoutMe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="btnStopWithoutMe.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnStopWithoutMe.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnStopWithoutMe.Name" xml:space="preserve">
+    <value>btnStopWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnStopWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStopWithoutMe.Parent" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnStopWithoutMe.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnFavoritarSweaterWeather.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnFavoritarSweaterWeather.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnFavoritarSweaterWeather.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFavoritarSweaterWeather.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 19</value>
+  </data>
+  <data name="btnFavoritarSweaterWeather.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="btnFavoritarSweaterWeather.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnFavoritarSweaterWeather.Name" xml:space="preserve">
+    <value>btnFavoritarSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;btnFavoritarSweaterWeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFavoritarSweaterWeather.Parent" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;btnFavoritarSweaterWeather.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="imgSweaterWeather.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="imgSweaterWeather.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgSweaterWeather.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, -4</value>
+  </data>
+  <data name="imgSweaterWeather.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 60</value>
+  </data>
+  <data name="imgSweaterWeather.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;imgSweaterWeather.Name" xml:space="preserve">
+    <value>imgSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;imgSweaterWeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgSweaterWeather.Parent" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;imgSweaterWeather.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnPlaySweaterWeather.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnPlaySweaterWeather.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPlaySweaterWeather.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPlaySweaterWeather.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="btnPlaySweaterWeather.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="btnPlaySweaterWeather.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnPlaySweaterWeather.Name" xml:space="preserve">
+    <value>btnPlaySweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;btnPlaySweaterWeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlaySweaterWeather.Parent" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;btnPlaySweaterWeather.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnStopSweaterWeather.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnStopSweaterWeather.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStopSweaterWeather.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStopSweaterWeather.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="btnStopSweaterWeather.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="btnStopSweaterWeather.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnStopSweaterWeather.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnStopSweaterWeather.Name" xml:space="preserve">
+    <value>btnStopSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;btnStopSweaterWeather.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStopSweaterWeather.Parent" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
+  </data>
+  <data name="&gt;&gt;btnStopSweaterWeather.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnPlay.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnPlay.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPlay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPlay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 83</value>
+  </data>
+  <data name="btnPlay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 52</value>
+  </data>
+  <data name="btnPlay.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnPlay.Name" xml:space="preserve">
+    <value>btnPlay</value>
+  </data>
+  <data name="&gt;&gt;btnPlay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPlay.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
+  </data>
+  <data name="&gt;&gt;btnPlay.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnCurtidoDoIWannaKnow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnCurtidoDoIWannaKnow.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCurtidoDoIWannaKnow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCurtidoDoIWannaKnow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 12</value>
+  </data>
+  <data name="btnCurtidoDoIWannaKnow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 30</value>
+  </data>
+  <data name="btnCurtidoDoIWannaKnow.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnCurtidoDoIWannaKnow.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoDoIWannaKnow.Name" xml:space="preserve">
+    <value>btnCurtidoDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoDoIWannaKnow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoDoIWannaKnow.Parent" xml:space="preserve">
+    <value>PainelDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoDoIWannaKnow.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="imgDoIWannaKnow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="imgDoIWannaKnow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgDoIWannaKnow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, -4</value>
+  </data>
+  <data name="imgDoIWannaKnow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 60</value>
+  </data>
+  <data name="imgDoIWannaKnow.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;imgDoIWannaKnow.Name" xml:space="preserve">
+    <value>imgDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;imgDoIWannaKnow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgDoIWannaKnow.Parent" xml:space="preserve">
+    <value>PainelDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;imgDoIWannaKnow.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="btnDoIWannaKnow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
@@ -2632,6 +3640,39 @@
     <value>PainelDoIWannaKnow</value>
   </data>
   <data name="&gt;&gt;btnDoIWannaKnow.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnStopDoIWannaKnow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnStopDoIWannaKnow.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnStopDoIWannaKnow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnStopDoIWannaKnow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 21</value>
+  </data>
+  <data name="btnStopDoIWannaKnow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="btnStopDoIWannaKnow.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnStopDoIWannaKnow.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnStopDoIWannaKnow.Name" xml:space="preserve">
+    <value>btnStopDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;btnStopDoIWannaKnow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStopDoIWannaKnow.Parent" xml:space="preserve">
+    <value>PainelDoIWannaKnow</value>
+  </data>
+  <data name="&gt;&gt;btnStopDoIWannaKnow.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="btnFavoritarDoIWannaKnow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
@@ -2662,34 +3703,34 @@
     <value>PainelDoIWannaKnow</value>
   </data>
   <data name="&gt;&gt;btnFavoritarDoIWannaKnow.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>6</value>
   </data>
-  <data name="imgDoIWannaKnow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="imgDoIWannaKnow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="imgIconeBibliotecaDeMusicas.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="imgDoIWannaKnow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, -4</value>
+  <data name="imgIconeBibliotecaDeMusicas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 10</value>
   </data>
-  <data name="imgDoIWannaKnow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 60</value>
+  <data name="imgIconeBibliotecaDeMusicas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 67</value>
   </data>
-  <data name="imgDoIWannaKnow.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="imgIconeBibliotecaDeMusicas.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
-  <data name="&gt;&gt;imgDoIWannaKnow.Name" xml:space="preserve">
-    <value>imgDoIWannaKnow</value>
+  <data name="imgIconeBibliotecaDeMusicas.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;imgDoIWannaKnow.Type" xml:space="preserve">
+  <data name="&gt;&gt;imgIconeBibliotecaDeMusicas.Name" xml:space="preserve">
+    <value>imgIconeBibliotecaDeMusicas</value>
+  </data>
+  <data name="&gt;&gt;imgIconeBibliotecaDeMusicas.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;imgDoIWannaKnow.Parent" xml:space="preserve">
-    <value>PainelDoIWannaKnow</value>
+  <data name="&gt;&gt;imgIconeBibliotecaDeMusicas.Parent" xml:space="preserve">
+    <value>painelBiblioteca</value>
   </data>
-  <data name="&gt;&gt;imgDoIWannaKnow.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;imgIconeBibliotecaDeMusicas.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3150,38 +4191,104 @@
   <data name="&gt;&gt;imgDoIWanaKnowCURTIDA.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="btnStopDoIWannaKnow.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="btnCurtidoSweaterWheather.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="btnStopDoIWannaKnow.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="btnCurtidoSweaterWheather.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="btnStopDoIWannaKnow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="btnCurtidoSweaterWheather.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnStopDoIWannaKnow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 21</value>
+  <data name="btnCurtidoSweaterWheather.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 12</value>
   </data>
-  <data name="btnStopDoIWannaKnow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 17</value>
+  <data name="btnCurtidoSweaterWheather.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 30</value>
   </data>
-  <data name="btnStopDoIWannaKnow.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="btnCurtidoSweaterWheather.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
-  <data name="btnStopDoIWannaKnow.Visible" type="System.Boolean, mscorlib">
+  <data name="btnCurtidoSweaterWheather.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;btnStopDoIWannaKnow.Name" xml:space="preserve">
-    <value>btnStopDoIWannaKnow</value>
+  <data name="&gt;&gt;btnCurtidoSweaterWheather.Name" xml:space="preserve">
+    <value>btnCurtidoSweaterWheather</value>
   </data>
-  <data name="&gt;&gt;btnStopDoIWannaKnow.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnCurtidoSweaterWheather.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnStopDoIWannaKnow.Parent" xml:space="preserve">
-    <value>PainelDoIWannaKnow</value>
+  <data name="&gt;&gt;btnCurtidoSweaterWheather.Parent" xml:space="preserve">
+    <value>PainelSweaterWeather</value>
   </data>
-  <data name="&gt;&gt;btnStopDoIWannaKnow.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;btnCurtidoSweaterWheather.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnCurtidoWithoutMe.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnCurtidoWithoutMe.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCurtidoWithoutMe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCurtidoWithoutMe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 12</value>
+  </data>
+  <data name="btnCurtidoWithoutMe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 30</value>
+  </data>
+  <data name="btnCurtidoWithoutMe.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnCurtidoWithoutMe.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoWithoutMe.Name" xml:space="preserve">
+    <value>btnCurtidoWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoWithoutMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoWithoutMe.Parent" xml:space="preserve">
+    <value>PainelWithoutMe</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoWithoutMe.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnCurtidoAlive.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btnCurtidoAlive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCurtidoAlive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCurtidoAlive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 12</value>
+  </data>
+  <data name="btnCurtidoAlive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 30</value>
+  </data>
+  <data name="btnCurtidoAlive.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnCurtidoAlive.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoAlive.Name" xml:space="preserve">
+    <value>btnCurtidoAlive</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoAlive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoAlive.Parent" xml:space="preserve">
+    <value>PainelAlive</value>
+  </data>
+  <data name="&gt;&gt;btnCurtidoAlive.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -5657,6 +6764,9 @@
         AAAAAAH///////////j////////////gAAAAAD////////////j/////////////AAAAB///////////
         //g=
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>CloneSpotify</value>

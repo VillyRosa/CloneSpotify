@@ -73,9 +73,29 @@ namespace CloneSpotify.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btn_aleatoriar {
+            get {
+                object obj = ResourceManager.GetObject("btn-aleatoriar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btn_favoritado {
             get {
                 object obj = ResourceManager.GetObject("btn-favoritado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btn_favoritado1 {
+            get {
+                object obj = ResourceManager.GetObject("btn-favoritado1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,6 +123,16 @@ namespace CloneSpotify.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btn_loop {
+            get {
+                object obj = ResourceManager.GetObject("btn-loop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btn_pausar {
             get {
                 object obj = ResourceManager.GetObject("btn-pausar", resourceCulture);
@@ -113,9 +143,29 @@ namespace CloneSpotify.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btn_pausar_baixo {
+            get {
+                object obj = ResourceManager.GetObject("btn-pausar-baixo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btn_play {
             get {
                 object obj = ResourceManager.GetObject("btn-play", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btn_play_baixo {
+            get {
+                object obj = ResourceManager.GetObject("btn-play-baixo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,6 +186,26 @@ namespace CloneSpotify.Properties {
         internal static System.Drawing.Bitmap btn_play2 {
             get {
                 object obj = ResourceManager.GetObject("btn-play2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btn_proximo_direita {
+            get {
+                object obj = ResourceManager.GetObject("btn-proximo-direita", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btn_proximo_esquerda {
+            get {
+                object obj = ResourceManager.GetObject("btn-proximo-esquerda", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

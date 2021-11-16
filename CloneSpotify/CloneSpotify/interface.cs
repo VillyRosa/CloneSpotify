@@ -143,6 +143,12 @@ namespace CloneSpotify
             btnStopDoIWannaKnow.Visible = false;
         }
 
+        private void btnFavoritarDoIWannaKnow_Click(object sender, EventArgs e)
+        {
+            btnFavoritarDoIWannaKnow.Visible = false;
+            btnCurtidoDoIWannaKnow.Visible = true;
+        }
+
         private void btnPlaySweaterWeather_Click(object sender, EventArgs e)
         {
             //Escolhendo a música e a fazendo tocar
@@ -173,6 +179,12 @@ namespace CloneSpotify
             //Trocando para o botao de iniciar a música
             btnPlaySweaterWeather.Visible = true;
             btnStopSweaterWeather.Visible = false;
+        }
+
+        private void btnFavoritarSweaterWeather_Click(object sender, EventArgs e)
+        {
+            btnFavoritarSweaterWeather.Visible = false;
+            btnCurtidoSweaterWheather.Visible = true;
         }
 
         private void btnPlayWithoutMe_Click(object sender, EventArgs e)
@@ -207,6 +219,12 @@ namespace CloneSpotify
             btnStopWithoutMe.Visible = false;
         }
 
+        private void btnFavoritarWithoutMe_Click(object sender, EventArgs e)
+        {
+            btnFavoritarWithoutMe.Visible = false;
+            btnCurtidoWithoutMe.Visible = true;
+        }
+
         private void btnPlayAlive_Click(object sender, EventArgs e)
         {
             //Escolhendo a música e a fazendo tocar
@@ -239,6 +257,12 @@ namespace CloneSpotify
             btnStopAlive.Visible = false;
         }
 
+        private void btnFavoritarAlive_Click(object sender, EventArgs e)
+        {
+            btnFavoritarAlive.Visible = false;
+            btnCurtidoAlive.Visible = true;
+        }
+
         private void PainelWithoutMe_Paint(object sender, PaintEventArgs e)
         {
             
@@ -248,6 +272,6 @@ namespace CloneSpotify
         {
 
         }
-      
+       
     }
 }

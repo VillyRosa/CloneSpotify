@@ -152,5 +152,26 @@
   <ItemGroup>
     <None Include="Resources\btn-play2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn-play-baixo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn-proximo-direita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn-proximo-esquerda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn-loop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn-aleatoriar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn-pausar-baixo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn-favoritado1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
