@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a9bb1dbd-6259-4032-afc2-416f5d5c5357": {
+      "ProjectGuid": "a9bb1dbd-6259-4032-afc2-416f5d5c5357",
+      "DisplayName": "CloneSpotify",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

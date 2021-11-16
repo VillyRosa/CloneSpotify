@@ -1,0 +1,14 @@
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\bin\Debug\CloneSpotify.exe.config
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\bin\Debug\CloneSpotify.exe
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\bin\Debug\CloneSpotify.pdb
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\obj\Debug\CloneSpotify.csproj.AssemblyReference.cache
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\obj\Debug\CloneSpotify.csproj.SuggestedBindingRedirects.cache
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\obj\Debug\CloneSpotify.Properties.Resources.resources
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\obj\Debug\CloneSpotify.csproj.GenerateResource.cache
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\obj\Debug\CloneSpotify.csproj.CoreCompileInputs.cache
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\obj\Debug\CloneSpotify.exe
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\obj\Debug\CloneSpotify.pdb
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\obj\Debug\CloneSpotify.TelaPrincipal.resources
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\bin\Debug\pt-BR\CloneSpotify.resources.dll
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\obj\Debug\CloneSpotify.TelaPrincipal.pt-BR.resources
+C:\Users\villy\OneDrive\Documentos\Fatec - ADS\2º Semestre\Linguagem de Programação\Clone Spotify\CloneSpotify\CloneSpotify\obj\Debug\pt-BR\CloneSpotify.resources.dll
