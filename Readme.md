@@ -5,6 +5,6 @@
 ### Este player de música tem as funções de:
 * Começar a escutar uma música presente na aplicação;
 * Trocar de faixa;
-* Curtir músicas;
+* Favoritar músicas;
 * Aleatorizar as músicas;
 * Passar as faixas.
